@@ -1,0 +1,32 @@
+.slider-caption-container{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    top: 37%;
+    left: 0px;
+}
+.slider-header{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #fff;
+    font-family: "Arvo", "Times New Roman", Times, serif;
+    width: 50%;
+    margin: 0 auto;
+    padding: 12px 15px;
+}
+
+.slider-button{
+    color: #fff;
+    background-color: #e3b536;
+    border-color: #e3b536;
+    font-size: 18px;
+    padding: 12px 15px;
+    padding-left: 34px;
+    padding-right: 34px;
+    font-family: "Arvo", "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+

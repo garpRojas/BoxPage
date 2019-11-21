@@ -1,0 +1,105 @@
+.headerBar{
+    background-color: #050521;
+}
+.bartext{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: .33s all ease-out;
+    transition: .33s all ease-out;
+}
+    
+.bartext:hover {
+    color: #ca970b;
+}
+.listItem, .list-item-icone{
+     display: inline-block;   
+}
+.listItem{
+    margin-right: 30px;
+}
+
+svg{
+    color: #ca970b;
+    margin-right: 5px;
+}
+
+.list-item-icon svg{
+    color: #fff;
+}
+
+.list-item-icon{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.icon-white{
+    color: #fff !important;
+}
+
+.social-icon{
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    background: #324454;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+.social-icon svg {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.headerBar ul{
+    margin: 7px 0;
+}
+
+
+/*dots*/
+.dots{
+    text-decoration: none;
+    width: 8%;
+/*    width: 80px;*/
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+}
+.dots:after {
+  content: '\2807';
+  font-size: 3em;
+  color: #2e2e2e;
+    text-decoration: none;
+}
+@media only screen and (min-width: 992px) {
+    .headerBar>div{display: block !important;}
+}
+@media only screen and (max-width: 991px) {
+    .headerBar{
+        background-color: #fff;
+        position: relative;
+    }
+    .headerBar>div{
+        width: 24rem;
+        position: absolute;
+        background-color: #fff;
+        right: 0px;
+        top: 53px;
+        z-index: 1;
+    }
+    
+    .bartext{
+        color: #000;
+        display: inline-block;
+        text-decoration: none;
+        -webkit-transition: .33s all ease-out;
+        transition: .33s all ease-out;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .headerBar>div{
+        width: 100%;
+    }
+}
