@@ -1,0 +1,19 @@
+.navbar {
+  justify-content: end;
+  background-color: #282623 !important;
+}
+
+.navbar-brand {
+  margin-left: 5px;
+}
+
+.navbar-brand img {
+  width: 3em;
+}
+
+.nav-link {
+  font: 500 14px "Ubuntu", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #f8f7f0 !important;
+}

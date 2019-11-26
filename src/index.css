@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: none;
+    color: #000;
+    background-color: #fff;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    font-size: 14px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+ul{
+    margin-bottom: 0;
+}
+
+
+/*Global varibales */
+
+.hidden-lg{
+    display: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .hidden-lg{
+        display: block;
+    }
+}

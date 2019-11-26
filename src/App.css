@@ -20,3 +20,33 @@
 .App-link {
   color: #09d3ac;
 }
+
+/* 
+overall style */
+
+.section-independent {
+  padding: 40px 0px;
+}
+
+/* margin */
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+/* headlines */
+h3 {
+  line-height: 1.2;
+  font-size: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Arvo", "Times New Roman", Times, serif;
+  color: #282623;
+}
+
+/* text align */
